@@ -1,0 +1,40 @@
+{
+  "name": "express-typeorm",
+  "version": "1.0.0",
+  "description": "Express TypeORM Example.",
+  "scripts": {
+    "prepare": "npm run build",
+    "init": "typeorm migration:create -n Init",
+    "run": "typeorm migration:run",
+    "start": "node lib/app.js",
+    "watch": "npm run watch:ts",
+    "watch:ts": "tsbb watch & npm run build:types -- --watch",
+    "build": "npm run build:ts && npm run build:types",
+    "build:ts": "tsbb build",
+    "build:types": "tsbb types",
+    "test": "tsbb test",
+    "coverage": "tsbb test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/tsbb/tree/master/example/basic"
+  },
+  "jest": {},
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "tsbb": "^1.4.0"
+  },
+  "author": "",
+  "dependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.1.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "mysql": "^2.17.1",
+    "typeorm": "^0.2.22"
+  }
+}

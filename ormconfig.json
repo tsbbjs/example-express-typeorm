@@ -1,0 +1,24 @@
+{
+  "type": "mysql",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "username": "root",
+  "password": "W.cjiang1314",
+  "database": "test",
+  "entities": [
+    "lib/entity/*.js"
+  ],
+  "subscribers": [
+    "lib/subscriber/*.js"
+  ],
+  "migrations": [
+    "lib/migration/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "lib/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "lib/subscriber"
+  },
+  "logging": true,
+  "synchronize": true
+}
