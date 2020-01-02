@@ -39,7 +39,7 @@ import getConf from './utils/getORMConf';
 
     // start express server
     app.listen(3001);
-    console.log('Express application is up and running on port 3000');
+    console.log('Express application is up and running on port 3001');
   } catch (error) {
     console.log('TypeORM connection error: ', error);
   }
