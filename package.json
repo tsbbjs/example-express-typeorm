@@ -30,7 +30,7 @@
     "@types/supertest": "~2.0.12",
     "nodemon": "^2.0.20",
     "supertest": "^6.3.3",
-    "supertest-session": "^4.1.0",
+    "supertest-session": "^5.0.0",
     "ts-node": "^10.9.1",
     "tsbb": "4.1.1"
   }
