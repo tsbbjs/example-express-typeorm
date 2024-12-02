@@ -24,7 +24,7 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
-    "typenexus": "0.5.6"
+    "typenexus": "0.5.7"
   },
   "devDependencies": {
     "@types/supertest": "~2.0.12",
