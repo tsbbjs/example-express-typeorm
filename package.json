@@ -32,6 +32,6 @@
     "supertest": "^6.3.3",
     "supertest-session": "^5.0.0",
     "ts-node": "^10.9.1",
-    "tsbb": "4.4.0"
+    "tsbb": "4.4.1"
   }
 }
